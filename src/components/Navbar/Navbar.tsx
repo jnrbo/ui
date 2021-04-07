@@ -111,39 +111,9 @@ export class Navbar extends React.PureComponent<NavbarProps, NavbarState> {
       <>
         <Menu.Item
           active={activePage === 'marketplace'}
-          href="https://market.decentraland.org"
+          href="http://localhost:3000"
         >
-          {i18n.menu.marketplace}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'builder'}
-          href="https://builder.decentraland.org"
-        >
-          {i18n.menu.builder}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'docs'}
-          href="https://docs.decentraland.org"
-        >
-          {i18n.menu.docs}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'events'}
-          href="https://events.decentraland.org"
-        >
-          {i18n.menu.events}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'dao'}
-          href="https://dao.decentraland.org"
-        >
-          {i18n.menu.dao}
-        </Menu.Item>
-        <Menu.Item
-          active={activePage === 'blog'}
-          href="https://decentraland.org/blog"
-        >
-          {i18n.menu.blog}
+          Inicio
         </Menu.Item>
       </>
     )
